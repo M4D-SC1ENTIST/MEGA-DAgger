@@ -1,0 +1,32 @@
+# optimizer config
+seed: 6300
+run_name: 'default'
+optim_method: 'CMA'
+budget: 19200
+num_workers: 100
+
+# parameter config
+num_weights: 7
+num_params: 1
+traj_v_scale: true
+collision_thres: true
+weights_lb: 1.0
+weights_ub: 10.0
+time_per_run: 8.0
+resume_train: false
+
+# eval config
+num_opp: 120
+ego_v_lb: 0.65
+ego_v_ub: 1.1
+opp_v_lb: 0.65
+opp_v_ub: 0.9
+num_scene: 1
+opp_gap_min: 8
+opp_gap_max: 12
+xy_noise_scale: 0.3
+theta_noise_scale: 0.1
+mixing_decay: 0.99
+render: false
+log_rollout: false
+

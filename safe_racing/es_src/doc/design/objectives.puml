@@ -1,0 +1,30 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+'title Cost functions for Lattice Planner
+
+* <&flag>Objectives
+
+** progress
+*** ego_progress-opp_progress
+*** overtaking rate
+
+** safety
+*** control error(from pure pursuit)
+*** ittc(mean & min)
+*** laptime
+*** crashing rate(only when ego car is collided)
+'*** <s>Raspmbc</s> => OSMC
+'*** <s>Raspyfi</s> => Volumio
+
+'header
+'My super header
+'endheader
+
+'center footer My super footer
+'
+'legend right
+'  Short
+'  legend
+'endlegend
+@endmindmap

@@ -1,0 +1,68 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/obj_space_planning/es_src/scripts",
+    "dependencies": [
+      "es-src==1.0",
+      "numpy==1.22.0",
+      "ray==1.12.1",
+      "sacred==0.8.2"
+    ],
+    "mainfile": "experiments.py",
+    "name": "obj_space_planning",
+    "repositories": [],
+    "sources": [
+      [
+        "experiments.py",
+        "_sources/experiments_bf4e3457065a5f3595e41d2837f3df74.py"
+      ]
+    ]
+  },
+  "heartbeat": "2022-08-23T17:11:44.310504",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD EPYC 7452 32-Core Processor",
+    "hostname": "97f570780418",
+    "os": [
+      "Linux",
+      "Linux-5.4.0-122-generic-x86_64-with-glibc2.29"
+    ],
+    "python_version": "3.8.10"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "default"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2022-08-23T04:46:52.631218",
+  "status": "INTERRUPTED",
+  "stop_time": "2022-08-23T17:11:44.311878"
+}

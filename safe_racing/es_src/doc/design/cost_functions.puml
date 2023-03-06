@@ -1,0 +1,34 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Cost functions for Lattice Planner
+
+* <&flag>Cost functions
+
+** fixed weights
+*** map_collision
+
+** shape cost
+*** length_cost
+*** obstacle_collision
+*** max_curvature
+*** similarity with last trajectory
+*** distance to optimal raceline
+
+** speed cost
+*** abs_speed_reward
+*** curvature_speed_punish
+'*** <s>Raspmbc</s> => OSMC
+'*** <s>Raspyfi</s> => Volumio
+
+'header
+'My super header
+'endheader
+
+'center footer My super footer
+'
+'legend right
+'  Short
+'  legend
+'endlegend
+@endmindmap
